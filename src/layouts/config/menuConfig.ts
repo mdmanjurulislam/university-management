@@ -1,5 +1,5 @@
 import { 
-  LayoutDashboard, Users, Settings, GraduationCap, 
+  LayoutDashboard, Users, GraduationCap, 
   UserCircle, Building2
 } from 'lucide-react';
 import React from 'react';
@@ -43,7 +43,7 @@ export const navigationConfig: MenuItem[] = [
       { name: 'Faculty Management', href: '/faculties' }
     ]
   },
-  { name: 'Academic Records', href: '/academics', icon: GraduationCap },
-  { name: 'Profile', href: '/profile', icon: UserCircle },
-  { name: 'Settings', href: '/settings', icon: Settings },
+  // { name: 'Academic Records', href: '/academics', icon: GraduationCap },
+  { name: 'Profile', href: '/profile', icon: UserCircle }
+  // { name: 'Settings', href: '/settings', icon: Settings },
 ];
